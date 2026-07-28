@@ -1,29 +1,28 @@
-import = [
-  "~/.config/alacritty/catppuccin-mocha.toml"
-]
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
 
 [env]
 TERM = "xterm-256color"
 
+[terminal]
+osc52 = "CopyPaste"
+
 [font]
-size = 14.0
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+size = 9
 
-[font.bold]
-# family = "MesloLGS Nerd Font Mono"
-family = "CaskaydiaCove Nerd Font"
-style = "Bold"
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
 
-[font.bold_italic]
-family = "CaskaydiaCove Nerd Font"
-# family = "MesloLGS Nerd Font Mono"
-style = "Bold Italic"
-
-[font.italic]
-family = "CaskaydiaCove Nerd Font"
-# family = "MesloLGS Nerd Font Mono"
-style = "Italic"
-
-[font.normal]
-# family = "MesloLGS Nerd Font Mono"
-family = "CaskaydiaCove Nerd Font"
-style = "Regular"
+[keyboard]
+bindings = [
+{ key = "Insert", mods = "Shift", action = "Paste" },
+{ key = "Insert", mods = "Control", action = "Copy" },
+# Send Shift+Return as CSI-u so TUIs can distinguish it from Return without treating it as Alt+Return.
+{ key = "Return", mods = "Shift", chars = "\u001B[13;2u" },
+# Legacy encoding sends Alt+Shift+Return the same as Alt+Return; send CSI-u so tmux can match M-S-Enter.
+{ key = "Return", mods = "Alt|Shift", chars = "\u001B[13;4u" }
+]
