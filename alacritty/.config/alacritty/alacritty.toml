@@ -1,25 +1,29 @@
-general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
 
 [env]
 TERM = "xterm-256color"
 
 [font]
-normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
-bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
-italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
-size = 9
+size = 14.0
 
-[window]
-padding.x = 14
-padding.y = 14
-decorations = "None"
+[font.bold]
+# family = "MesloLGS Nerd Font Mono"
+family = "CaskaydiaCove Nerd Font"
+style = "Bold"
 
-[keyboard]
-bindings = [
-{ key = "Insert", mods = "Shift", action = "Paste" },
-{ key = "Insert", mods = "Control", action = "Copy" },
-  { key = "Return", mods = "Shift", chars = "\u001B\r" }
-]
+[font.bold_italic]
+family = "CaskaydiaCove Nerd Font"
+# family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
 
-[terminal]
-osc52 = "CopyPaste"
+[font.italic]
+family = "CaskaydiaCove Nerd Font"
+# family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+# family = "MesloLGS Nerd Font Mono"
+family = "CaskaydiaCove Nerd Font"
+style = "Regular"
