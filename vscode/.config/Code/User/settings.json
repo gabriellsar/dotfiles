@@ -1,0 +1,67 @@
+// VS Code — visual gabriel.s (Omarchy Quattro)
+// O tema de cores vem do tema Omarchy "gabriel-s": ao trocar de tema, o
+// omarchy-theme-set-vscode instala a extensão local "Omarchy" com o
+// vscode-theme.json do tema e escreve "workbench.colorTheme" abaixo.
+{
+  "workbench.colorTheme": "Omarchy",
+
+  // Omarchy desliga a atualização interna do VS Code (o pacman cuida disso).
+  "update.mode": "none",
+
+  // Tipografia: Geist Mono (pacote otf-geist-mono-nerd), uma família em duas vozes.
+  "editor.fontFamily": "'GeistMono Nerd Font', 'Geist Mono', monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontFamily": "'GeistMono Nerd Font', 'Geist Mono', monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorStyle": "block",
+  "debug.console.fontFamily": "'GeistMono Nerd Font', monospace",
+
+  // Cursor e linha atual como no terminal.
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "editor.renderLineHighlight": "line",
+
+  // Menos informação na tela.
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.folding": true,
+  "editor.showFoldingControls": "mouseover",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "breadcrumbs.enabled": true,
+
+  // Janela: o Hyprland já gerencia as janelas, então sem barra de título.
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabActionLocation": "right",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": true,
+  "chat.commandCenter.enabled": false
+
+  // Opcional (cantos retos e sem sombras em tudo): instale a extensão
+  // subframe7536.custom-ui-style, descomente o bloco abaixo e rode
+  // "Custom UI Style: Reload". Ela modifica arquivos do VS Code; depois de
+  // cada atualização pode ser preciso rodar o Reload de novo.
+  // ,
+  // "custom-ui-style.font.sansSerif": "Geist",
+  // "custom-ui-style.stylesheet": {
+  //   ".monaco-workbench *": "border-radius: 0 !important; box-shadow: none !important;",
+  //   ".quick-input-widget": "border: 1px solid #263638 !important;"
+  // }
+}
