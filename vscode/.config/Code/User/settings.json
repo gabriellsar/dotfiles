@@ -52,7 +52,8 @@
   "workbench.tree.renderIndentGuides": "always",
   "explorer.compactFolders": false,
   "explorer.decorations.badges": true,
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "workbench.colorCustomizations": {}
 
   // Opcional (cantos retos e sem sombras em tudo): instale a extensão
   // subframe7536.custom-ui-style, descomente o bloco abaixo e rode

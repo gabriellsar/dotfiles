@@ -1,0 +1,16 @@
+2026-11-19T21:05:44.483565Z  INFO herdr::api::server: api server listening path=/home/gabriel/.config/herdr/herdr.sock
+2026-11-19T21:05:44.484802Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-19T21:05:44.485795Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=104904
+2026-11-19T21:05:44.486143Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-19T21:05:44.487267Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=104911
+2026-11-19T21:05:44.487615Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-19T21:05:44.488671Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=104914
+2026-11-19T21:05:44.488942Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-19T21:05:44.488976Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-19T21:05:44.570459Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-19T21:05:44.571469Z  INFO herdr::server::headless: client protocol socket listening path=/home/gabriel/.config/herdr/herdr-client.sock
+2026-11-19T21:05:44.571534Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/gabriel/.config/herdr/herdr.sock client_socket=/home/gabriel/.config/herdr/herdr-client.sock
+2026-11-19T21:05:44.571720Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=104509
+2026-11-19T21:05:44.735398Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-19T21:05:44.735429Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-19T21:05:44.735572Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
