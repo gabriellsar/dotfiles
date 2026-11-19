@@ -1,0 +1,36 @@
+# gabriel.s — tema Omarchy (Quattro) gerado a partir do design system gabriel.s
+# Escuro primeiro. Neutros puxam para o verde-azulado; um acento frio, um sinal quente.
+mode = "dark"
+
+accent = "#7cf0d4"
+selection = "#12302b"
+muted = "#56696c"
+
+background = "#0a0c0d"
+dark_background = "#080a0b"
+darker_background = "#050607"
+lighter_background = "#10181a"
+
+foreground = "#d3e1e2"
+dark_foreground = "#8fa3a6"
+light_foreground = "#bdcbcc"
+bright_foreground = "#f4fbfb"
+
+red = "#ff8a6b"
+yellow = "#ffb454"
+orange = "#ffa078"
+green = "#7cf0d4"
+cyan = "#7cd8f0"
+blue = "#a8c5ff"
+magenta = "#c9a8ff"
+brown = "#8a6a4a"
+
+bright_red = "#ffa58c"
+bright_yellow = "#ffc97f"
+bright_green = "#a3f5e1"
+bright_cyan = "#a6e6f6"
+bright_blue = "#c4d8ff"
+bright_magenta = "#dcc4ff"
+
+# Cor das marcas nos ícones de apps.
+icon_mark = "#7cf0d4"
