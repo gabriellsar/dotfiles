@@ -13,8 +13,7 @@ O stow não sobrescreve arquivos que já existem. Se o Omarchy já criou algum (
 
 | Pacote | O que tem |
 | --- | --- |
-| `omarchy` | Temas em `~/.config/omarchy/themes/`: `gabriel-s` (design system gabriel.s) e `island-mocha`, ambos no formato de cores do Quattro |
-| `backgrounds` | Planos de fundo do tema island-mocha |
+| `omarchy` | Tema `gabriel-s` (design system gabriel.s) em `~/.config/omarchy/themes/`, no formato de cores do Quattro |
 | `vscode` | `settings.json` do VS Code (o tema de cores vem do tema do Omarchy) |
 | `ghostty`, `alacritty`, `kitty` | Terminais. As cores vêm de `~/.local/state/omarchy/current/theme/` |
 | `herdr` | Atalhos do herdr no estilo do tmux. O tema segue o terminal |

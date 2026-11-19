@@ -25,7 +25,7 @@ $time\
 [](fg:yellow)\
 $line_break$character"""
 
-# Cores ANSI do terminal: o Omarchy as gera a partir do tema atual (gabriel-s, island-mocha…),
+# Cores ANSI do terminal: o Omarchy as gera a partir do tema atual (gabriel-s…),
 # então o prompt acompanha a troca de tema.
 
 [os]
