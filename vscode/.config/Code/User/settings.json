@@ -47,13 +47,14 @@
   "workbench.tips.enabled": false,
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.tabActionLocation": "right",
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.indent": 14,
   "workbench.tree.renderIndentGuides": "always",
   "explorer.compactFolders": false,
   "explorer.decorations.badges": true,
   "chat.commandCenter.enabled": false,
-  "workbench.colorCustomizations": {}
+  "workbench.colorCustomizations": {},
+  "workbench.statusBar.visible": false
 
   // Opcional (cantos retos e sem sombras em tudo): instale a extensão
   // subframe7536.custom-ui-style, descomente o bloco abaixo e rode
