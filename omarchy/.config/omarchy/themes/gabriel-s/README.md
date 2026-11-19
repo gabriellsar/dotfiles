@@ -13,4 +13,6 @@ Tema pessoal gerado a partir do design system gabriel.s (escuro, um acento frio 
 2. `omarchy-pkg-add otf-geist-mono-nerd` para a fonte Geist Mono com os glifos Nerd Font que a barra e o terminal usam.
 3. Escolha o tema em _Appearance › Theme_ (Super + Ctrl + T) ou rode `omarchy theme set gabriel-s`.
 
-Ainda faltam os planos de fundo (`backgrounds/`) e as imagens `preview.png` e `unlock.png`.
+- `backgrounds/1-heightmap.png` e `preview.png` — campo de pontos com curvas de nível, gerados por `.tools/wallpaper/heightmap.py` (4K; aceita uma seed: `python3 .tools/wallpaper/heightmap.py 0x2A`).
+
+Ainda falta a imagem `unlock.png`.
