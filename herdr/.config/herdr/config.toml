@@ -2,12 +2,8 @@
 # Keybindings ported from ~/.tmux.conf
 
 [theme]
-# tmux: set -g @plugin 'catppuccin/tmux' (@catppuccin_flavor "mocha")
-name = "catppuccin"
-# Follow the host terminal's light/dark appearance.
-auto_switch = true
-dark_name = "catppuccin"          # mocha
-light_name = "catppuccin-latte"
+# Segue a paleta do terminal, que o Omarchy gera a partir do tema atual.
+name = "terminal"
 
 [keys]
 # tmux: set -g prefix C-s

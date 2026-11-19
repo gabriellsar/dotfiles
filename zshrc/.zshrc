@@ -16,7 +16,9 @@ setopt inc_append_history
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/share/omarchy/bin:$PATH"
+# Omarchy Quattro: os comandos omarchy-* vêm do pacote em /usr/bin; isto define OMARCHY_PATH.
+[ -r /usr/share/omarchy/default/bash/env-bootstrap ] && . /usr/share/omarchy/default/bash/env-bootstrap
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 eval "$(~/.local/bin/mise activate zsh)"
 
 new_tmux () {
